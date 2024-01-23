@@ -1,6 +1,6 @@
 {
-  "name": "@jabuti/core",
-  "version": "0.0.0",
+  "name": "@jabuti-ds/core",
+  "version": "1.0.2",
   "description": "components library",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
@@ -22,5 +22,20 @@
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisnunesal/jabuti-ds.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luisnunesal/jabuti-ds/issues"
+  },
+  "homepage": "https://github.com/luisnunesal/jabuti-ds#readme",
+  "keywords": [
+    "jabuti",
+    "ds"
+  ]
 }
