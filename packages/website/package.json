@@ -1,5 +1,5 @@
 {
-  "name": "@jabuti/website",
+  "name": "@jabuti-ds/website",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -18,7 +18,7 @@
     "@docusaurus/core": "3.1.0",
     "@docusaurus/preset-classic": "3.1.0",
     "@docusaurus/theme-live-codeblock": "^3.1.0",
-    "@jabuti/core": "*",
+    "@jabuti-ds/core": "*",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",

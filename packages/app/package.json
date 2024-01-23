@@ -1,5 +1,5 @@
 {
-  "name": "react-ts",
+  "name": "@jabuti-ds/app",
   "private": true,
   "version": "0.0.0",
   "module": "esm",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jabuti/core": "*",
+    "@jabuti-ds/core": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,6 +1,6 @@
 import React from 'react';
 // Add react-live imports you need here
-import { Box, Button } from '@jabuti/core';
+import { Box, Button } from '@jabuti-ds/core';
 
 
 const ReactLiveScope = {

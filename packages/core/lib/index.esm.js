@@ -138,10 +138,6 @@ var l=Object.defineProperty;var t=(o,n)=>l(o,"name",{value:n,configurable:!0});i
     ${d}
     ${g}
     ${b}
-
-    
-
-
 `,i=s(a).attrs(o=>({display:"flex",justifyContent:"center",alignItems:"center"}))`
     ${f}
 `;var y=t(o=>h.createElement(i,{display:o.display,justifyContent:o.justifyContent,alignItems:o.justifyContent,flexDirection:"row",size:o.size,variant:o.variant,fullWidth:o.fullWidth,...o},o.children),"ButtonComponent");export{a as Box,y as Button};

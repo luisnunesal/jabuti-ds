@@ -6,6 +6,8 @@ sidebar_position: 1
 
 Vamos  descobrir **Jabuti em menos de 5 minutos**.
 
+![Alt](https://media.giphy.com/media/f5jfxfGfBpWt26ro54/giphy.gif)
+
 ## Primeiros passos
 
 Comece **preparando seu ambiente**.
@@ -17,19 +19,19 @@ Comece **preparando seu ambiente**.
 
 ## Instalando a biblioteca
 
-:::warning
-
-Este conteúdo **ainda não está disponível** por hora só possivel utilizar em _ambiente local_. Verifique com [Luis Nunes](#).
-
-:::
-
 Execute o comando a seguir:
 
 ```bash
-npm install --save @jabuti/core
+npm install @jabuti-ds/core --save
 
 # Ou
 
-yarn add @jabuti/core
+yarn add @jabuti-ds/core
 ```
 
+
+## Links úteis
+
+- [Github jabuti-ds (monorepo)](https://github.com/luisnunesal/jabuti-ds)
+- [npm @jabuti-ds/core](https://www.npmjs.com/package/@jabuti-ds/core)
+- [Luis Nunes](https://github.com/luisnunesal)

@@ -1,5 +1,5 @@
 {
-  "name": "@jabuti/root",
+  "name": "@jabuti-ds/root",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -9,9 +9,9 @@
     "lerna": "^8.0.2"
   },
   "scripts": {
-    "start-app": "lerna run dev --scope=react-ts",
-    "start-core": "lerna run start --scope=@jabuti/core",
-    "start-doc": "lerna run start --scope=@jabuti/website",
-    "build-core": "lerna run build --scope=@jabuti/core"
+    "start-app": "lerna run dev --scope=@jabuti-ds/app",
+    "start-core": "lerna run start --scope=@jabuti-ds/core",
+    "start-doc": "lerna run start --scope=@jabuti-ds/website",
+    "build-core": "lerna run build --scope=@jabuti-ds/core"
   }
 }
