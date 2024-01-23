@@ -1,0 +1,26 @@
+{
+  "name": "@jabuti/core",
+  "version": "0.0.0",
+  "description": "components library",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "author": "Luis Nunes",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc -w",
+    "build": "node ./esbuild"
+  },
+  "dependencies": {
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "exclude": ["node_modules", "coverage", "lib", "scripts"],
+    "files": ["src/index.ts"],
+    "compilerOptions": {
+      "target": "es2020",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "lib": ["DOM", "DOM.Iterable", "ESNEXT"],
+      "types": ["react"],
+      "declaration": true,
+      "jsx": "react",
+      "sourceMap": true,
+      "strict": true,
+      "strictNullChecks": false,
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "outDir": "lib",
+      "skipLibCheck": true,
+      "noImplicitThis": false,
+      "downlevelIteration": true
+    }
+  }
+  

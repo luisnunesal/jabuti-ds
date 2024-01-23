@@ -1,0 +1,102 @@
+---
+id: elements-button
+title: Button
+---
+
+# Button
+
+Use os estilos de `Button` personalizados do `@jabuti` para ações em formulários, caixas de diálogo e muito mais com suporte para vários tamanhos, estados e muito mais.
+
+## Como importar e usar?
+
+Para usar o `Button` é bem simples bastar seguir o exemplo abaixo:
+
+```jsx
+import { Button } from '@jabuti/core'
+...
+
+<Button>
+    Clique aqui
+<Button>
+```
+
+## Tamanhos
+
+Botões de todos os tamanhos é aqui! Apenas passe a propriedade `size`.
+
+```jsx
+
+<Button size="small">
+    Small
+<Button>
+
+<Button>
+    Normal
+<Button>
+
+<Button size="large">
+    Large
+<Button>
+
+```
+
+### Tamanho gigante
+
+Caso deseje ocupar toda a tela use a propriedade `fullWidth`
+
+```jsx
+
+<Button fullWidth>
+    100% grande!
+<Button>
+
+```
+
+## Variações
+
+Existe três variantes de Botões:
+
+- `Contained`
+- `Outlined`
+- `Linked`
+
+Para usá-las bastar passar a propriedade `variant`
+
+```jsx
+
+<Button size="small" variant="outlined">
+    Small
+<Button>
+
+```
+
+## Parquinho!!!
+
+Brinque o quanto quiser com o código abaixo. ~~Brincadeira de criança... como é bom, como é bom!~~
+
+```jsx live
+
+ function MyPlayground(props) {
+  return (
+      <Button size="small" variant="contained">
+       Clique aqui
+      </Button>
+  );
+}
+```
+
+## Button API*
+
+| Propriedade | Tipo                                                                         | Padrão      | Descrição |
+| ----------- | ---------------------------------------------------------------------------- | ----------- | --------- |
+| children    | string | ReactNode                                                           | undefined   |           |
+| variant     | 'contained' \| 'outlined' \| 'linked'                                        | 'contained' |           |
+| size        | 'default' \| 'small' \| 'large'                                              | 'default'   |           |
+| fullWidth   | boolean                                                                      | false       |           |
+
+
+\* _essas + todas as props de `Box`._
+
+....
+
+**Última Atualização:** _Luis Nunes, Dev Front - 22/01/2024_

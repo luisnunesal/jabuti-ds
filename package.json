@@ -1,0 +1,17 @@
+{
+  "name": "@jabuti/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.0.2"
+  },
+  "scripts": {
+    "start-app": "lerna run dev --scope=react-ts",
+    "start-core": "lerna run start --scope=@jabuti/core",
+    "start-doc": "lerna run start --scope=@jabuti/website",
+    "build-core": "lerna run build --scope=@jabuti/core"
+  }
+}

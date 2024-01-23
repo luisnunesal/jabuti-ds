@@ -1,0 +1,86 @@
+---
+id: containers-box
+title: Box
+---
+
+
+
+
+# Box
+
+`Box` é o principal componente sobre o qual todos os outros componentes da UI do Jabuti são construídos. Por padrão, ele renderiza um elemento div.
+
+
+## Como importar e usar?
+
+Para usar o `Box` é bem simples bastar seguir o exemplo abaixo:
+
+```jsx
+import { Box } from '@jabuti/core'
+...
+
+<Box display="flex"  justifyContent="center" alignItems="center" flexDirection="row">
+    //Outros conteúdos
+<Box>
+```
+
+## Testando... 1 2 3!
+
+Fique a vontade para modificar as propriedades do código abaixo. ~~Não é feitiçaria, é tecnologia!~~
+
+```jsx live
+
+ function MyPlayground(props) {
+  return (
+    <div>
+      <Box display="flex"  justifyContent="space-between" alignItems="center" flexDirection="row" width="100%" height="300px" className="box">
+        <div className="square" />
+        <div className="square2" />
+        <div className="square3" />
+      </Box>
+    </div>
+    
+  );
+}
+```
+
+## Estilizando e adequando ao seu projeto
+
+O `Box` tem suporte ao `className` onde você poderá passar seu `css` e além disso caso sinta falta de alguma propriedade da API ([ver seção](#box-api)) você ainda pode 
+estender o componente para modificá-lo a sua maneira com o [Styled-components](https://styled-components.com/docs).
+
+
+```jsx
+
+//No arquivo styles
+import styled from 'styled-components';
+import { Box, BoxPropsInterface } from '@jabuti/core';
+
+export const MyModifiedBox = styled(Box)attrs<BoxPropsInterface>((props) => ({
+    ...props
+}))`
+    //Outros estilos
+`;
+```
+
+
+
+## Box API
+
+Aqui estão todas as propriedades que o `Box` possui por padrão.
+
+| Propriedade    | Tipo                                                              | Padrão    | Descrição          |
+| -------------- | ----------------------------------------------------------------- | --------- | ------------------ |
+| gap            | string                                                            |           |                    |
+| flexDirection  | `row` \| `row-reverse` \| `column` \| `column-reverse`;           | `row`     |                    |
+| display        | `flex` \| `block` \| `grid`                                       |           |                    |
+| justifyContent | `start` \| `end` \| `center` \| `between` \| `around` \| `evenly` | `center`  |                    |
+| alignItems     | `start` \| `end` \| `center` \| `baseline` \| `stretch`           | `center`  |                    |
+| bgColor        | string                                                            |           |                    |
+| height         | number \| string                                                  |           |                    |
+| width          | number \| string                                                  |           |                    |
+
+
+....
+
+**Última Atualização:** _Luis Nunes, Dev Front - 19/01/2024_
